@@ -1,11 +1,12 @@
 #pragma once
 #include"SameCommandsForGroups.h"
 #include"Animals.h"
+#include "Repository.h"
 #include <vector>
 #include <iostream>
 using namespace std;
 
-class Bird {
+class Bird : public Repository <Animal> {
 	vector <Animal> arrayOfBird;
 public:
 	void AddBird(Animal& bird);

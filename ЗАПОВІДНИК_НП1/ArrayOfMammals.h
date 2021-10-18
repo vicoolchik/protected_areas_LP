@@ -2,10 +2,11 @@
 #include"SameCommandsForGroups.h"
 #include"Animals.h"
 #include <vector>
+#include "Repository.h"
 #include <iostream>
 using namespace std;
 
-class Mammal {
+class Mammal : public Repository  <Animal> {
 	vector <Animal> arrayOfMammal;
 public:
 	void AddMammal(Animal& mammal);

@@ -20,13 +20,11 @@ class Command {
 private:
 public:
 	void PrintAnimalListedInRedBook();
-	void PrintGroup(vector<Animal>& array, string str);
 	void PrintInfoAboutAnimalForIndex();
 	void AppendGroup();
 	void MainPrintGroup();
 	void SafeAddAnimal(int groupSelectedByUser, string newspecies, string boolrare);
 	void EndOfWork();
-	string GroupWriteToFile(vector<Animal>& array, string str);
 	string AnimalWriteToFile();
 	Animal& AnimalForIndex(int& index);
 	void AddAnimal2();

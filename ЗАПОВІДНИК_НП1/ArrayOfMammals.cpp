@@ -8,14 +8,14 @@ void Mammal::AddMammal(Animal& mammal)
 
 void Mammal::PrintMammal()
 {
-	Command command;
+
 	string str="ссавц≥в : \n";
-	command.PrintGroup(this->arrayOfMammal,str);
+	PrintGroup(this->arrayOfMammal,str);
 }
 
 string Mammal::WriteMammalToFile()
 {
-	Command command;
+
 	string str = "”с≥ види ссавц≥в:\n";
-	return command.GroupWriteToFile(arrayOfMammal, str);
+	return GroupWriteToFile(arrayOfMammal, str);
 }

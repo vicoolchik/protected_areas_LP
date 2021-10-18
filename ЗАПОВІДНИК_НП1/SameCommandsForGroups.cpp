@@ -8,14 +8,6 @@ Ampidian ampidian1;
 ArrayOfAnimal arrayOfAnimal;
 //string filename = "тварини3.txt";
 
-void Command::PrintGroup(vector<Animal>& array,string str)
-{
-	cout << endl;
-	cout << "Надруковані усі види "<<str;
-	for (vector<Animal>::iterator i=array.begin();i!=array.end();i++) {
-		cout << (*i).ShowInfo() << endl;
-	}
-}
 
 
 
@@ -101,16 +93,6 @@ void Command::EndOfWork()
 }
 
 
-
-string Command::GroupWriteToFile(vector<Animal>& array, string str) {
-	string line;
-	vector<Animal>& this_array = array;
-	line += str;
-	for (vector<Animal>::iterator i = this_array.begin(); i != this_array.end(); i++) {
-		line += (*i).TextWriteToFile();
-	}
-	return line;
-}
 
 string Command::AnimalWriteToFile()
 {

@@ -158,6 +158,7 @@
     <ClInclude Include="ArrayOfAllAnimal.h" />
     <ClInclude Include="ChooseMenu.h" />
     <ClInclude Include="Error.h" />
+    <ClInclude Include="Repository.h" />
     <ClInclude Include="WorkWithFile.h" />
     <ClInclude Include="ArrayOfAmpidians.h" />
     <ClInclude Include="ArrayOfBirds.h" />
